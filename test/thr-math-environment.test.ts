@@ -5,7 +5,8 @@ import ThrMathEnvironment from "../src/thr-math-environment"
  */
 describe("Dummy test", () => {
     it("ThrMathEnvironment is instantiable", () => {
-        expect(new ThrMathEnvironment()).toBeInstanceOf(ThrMathEnvironment)
+        const tme = new ThrMathEnvironment();
+        expect(tme).toBeInstanceOf(ThrMathEnvironment)
     });
 
     it("works if true is truthy", () => {
